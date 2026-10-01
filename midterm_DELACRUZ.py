@@ -12,12 +12,9 @@ def sales_record_management_system():
     print('4. Exit System')
     print('='*30)
 
-myloop = True
+print(sales_record_management_system())
 
-while myloop:
-    print(sales_record_management_system())
-
-    user_options = input("Choose an option from 1-4:")
+user_options = input("Choose an option from 1-4:")
 
 def errorEmptyInput():
     print("Input must not be empty!")
